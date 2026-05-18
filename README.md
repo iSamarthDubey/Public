@@ -1,35 +1,48 @@
-# Vetan Desk — Public Releases
+# Public Releases
 
-Public distribution repository for the **Vetan Desk Staff App** APK releases.
+Public distribution repository for release binaries and documentation maintained by [Samarth Dubey](https://github.com/iSamarthDubey).
 
-> This repo hosts release binaries only. Source code lives in a separate private repository.
-
-## 📱 Download Latest
-
-Check the [**Releases**](https://github.com/iSamarthDubey/Public/releases) page for the latest APK.
-
-| File | Description |
-|------|-------------|
-| `*-universal.apk` | ✅ **Recommended** — works on all Android devices |
-| `*-arm64.apk` | Smaller download, for modern phones (ARM64) |
-| `*-arm32.apk` | For older 32-bit devices |
-
-## 🔄 Auto-Updates
-
-The Staff App automatically checks this repository for new versions on launch.
-When a new release is available, a prompt appears with download instructions.
-
-## 📋 Changelog
-
-Release notes are included with each GitHub Release.
-Click any release to view the full changelog.
-
-## 🔒 Security
-
-- All APKs are signed with our official release keystore
-- Releases are created exclusively through our CI/CD pipeline
-- No user data is collected through this repository
+> This repository hosts compiled release artifacts and public-facing documentation only.
+> Source code for all projects lives in separate private repositories.
 
 ---
 
-*Vetan Desk — Management & Intelligence for Staff Tracking*
+## Project Index
+
+| # | Project | Description | Apps | Status |
+|---|---------|-------------|------|--------|
+| 1 | [Vetan Desk](./projects/vetan-desk) | Staff management system for educational institutions | Staff App, Lens Kiosk | Active |
+
+> [View detailed documentation, installation guides, and changelogs in the projects directory.](./projects)
+
+---
+
+## Security
+
+- All release artifacts are signed with official release keystores and built exclusively through automated CI/CD pipelines.
+- No user data is collected, transmitted, or stored through this repository.
+- Release mirroring from private repositories is handled by authenticated GitHub Actions workflows with asset-level filtering.
+
+## Reporting Issues
+
+This repository is a distribution channel only and does not accept pull requests or feature requests directly. If you encounter a bug, please contact the relevant project's support channel listed in its documentation.
+
+---
+
+## Repository Structure
+
+```
+Public/
+  README.md                        # This file -- project index
+  projects/
+    vetan-desk/                    # Vetan Desk product
+      README.md                    # Product overview and app listing
+      staff/
+        README.md                  # Staff App -- download, install, requirements
+      lens/
+        README.md                  # Lens Kiosk -- download, install, requirements
+```
+
+---
+
+*Maintained by [Samarth Dubey](https://github.com/iSamarthDubey)*
