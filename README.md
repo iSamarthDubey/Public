@@ -11,9 +11,11 @@ Public distribution repository for release binaries and documentation maintained
 
 > Click on any project name below to view its detailed documentation, installation guides, and changelogs.
 
-| # | Project | Description | Apps | Status |
-|---|---------|-------------|------|--------|
-| 1 | [Vetan Desk](./projects/vetandesk) | Staff management system for educational institutions | Staff App, Lens Kiosk | Active |
+| # | Project / App | Description | Status |
+|---|---------------|-------------|--------|
+| **1.** | **[Vetan Desk](./projects/vetandesk)** | **Self-hosted SaaS Platform for Staff Management built for Educational Institution** | **Active** |
+| | ↳ [Staff](./projects/vetandesk/staff) | - | Active |
+| | ↳ [Lens](./projects/vetandesk/lens) | - | Active |
 
 ---
 
@@ -26,22 +28,6 @@ Public distribution repository for release binaries and documentation maintained
 ## Reporting Issues
 
 This repository is a distribution channel only and does not accept pull requests or feature requests directly. If you encounter a bug, please contact the relevant project's support channel listed in its documentation.
-
----
-
-## Repository Structure
-
-```
-Public/
-  README.md                        # This file -- project index
-  projects/
-    vetandesk/                     # Vetan Desk
-      README.md                    # Project overview and app listing
-      staff/
-        README.md                  # Staff Mobile App -- download, install, requirements
-      lens/
-        README.md                  # Lens Kiosk App -- download, install, requirements
-```
 
 ---
 
