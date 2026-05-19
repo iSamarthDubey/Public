@@ -1,6 +1,6 @@
 # Public Releases
+Public distribution repository for release binaries and documentation.
 
-Public distribution repository for release binaries and documentation maintained by [Samarth Dubey](https://github.com/iSamarthDubey).
 
 > This repository hosts compiled release artifacts and public-facing documentation only.
 > Source code for all projects lives in separate private repositories.
@@ -11,7 +11,7 @@ Public distribution repository for release binaries and documentation maintained
 
 > Click on any project name below to view its detailed documentation, installation guides, and changelogs.
 
-| # | Project / App | Description | Status |
+| # | Project | Description | Status |
 |---|---------------|-------------|--------|
 | **1.** | **[Vetan Desk](./projects/vetandesk)** | **Self-hosted SaaS Platform for Staff Management built for Educational Institution** | **Active** |
 | | ↳ [Staff](./projects/vetandesk/staff) | - | Active |
@@ -31,4 +31,4 @@ This repository is a distribution channel only and does not accept pull requests
 
 ---
 
-*Maintained by [Samarth Dubey](https://github.com/iSamarthDubey)*
+*Documentation Maintained by [Samarth Dubey](https://github.com/iSamarthDubey)*.
