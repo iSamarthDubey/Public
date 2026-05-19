@@ -9,11 +9,11 @@ Public distribution repository for release binaries and documentation maintained
 
 ## Project Index
 
+> Click on any project name below to view its detailed documentation, installation guides, and changelogs.
+
 | # | Project | Description | Apps | Status |
 |---|---------|-------------|------|--------|
-| 1 | [Vetan Desk](./projects/vetan-desk) | Staff management system for educational institutions | Staff App, Lens Kiosk | Active |
-
-> [View detailed documentation, installation guides, and changelogs in the projects directory.](./projects)
+| 1 | [Vetan Desk](./projects/vetandesk) | Staff management system for educational institutions | Staff App, Lens Kiosk | Active |
 
 ---
 
@@ -35,12 +35,12 @@ This repository is a distribution channel only and does not accept pull requests
 Public/
   README.md                        # This file -- project index
   projects/
-    vetan-desk/                    # Vetan Desk product
-      README.md                    # Product overview and app listing
+    vetandesk/                     # Vetan Desk
+      README.md                    # Project overview and app listing
       staff/
-        README.md                  # Staff App -- download, install, requirements
+        README.md                  # Staff Mobile App -- download, install, requirements
       lens/
-        README.md                  # Lens Kiosk -- download, install, requirements
+        README.md                  # Lens Kiosk App -- download, install, requirements
 ```
 
 ---

@@ -19,7 +19,7 @@ Self-hosted staff management system designed for Indian educational institutions
 
 ## Overview
 
-Vetan Desk (internally codenamed MIST -- Management and Intelligence for Staff Tracking) provides a complete staff operations platform:
+Vetan Desk provides a complete staff operations platform:
 
 - **Backend API** -- centralized business logic, RBAC, and data management (not publicly distributed)
 - **Admin Dashboard** -- web-based administration console for HR and management (not publicly distributed)
